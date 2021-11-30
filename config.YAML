@@ -1,0 +1,10 @@
+Type: AWS::AppConfig::Deployment
+Properties: 
+  ApplicationId: String
+  ConfigurationProfileId: String
+  ConfigurationVersion: String
+  DeploymentStrategyId: String
+  Description: String
+  EnvironmentId: String
+  Tags: 
+    - Tags
